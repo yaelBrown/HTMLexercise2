@@ -1,0 +1,67 @@
+body {
+  background-color: #8fb1d5;
+  color: black;
+  font-family: "verdana", arial, sans-serif;
+}
+
+h1 {
+  background-color: #d9c7b4;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  background-color: white;
+  font-size: 1.2em;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+a {
+  padding: 20px;
+}
+
+.navItems {
+  text-align: center;
+}
+
+/* 
+  Footer items
+*/
+.copyright, .mailto {
+  background-color: #d9c7b4;
+  color: #000;
+  font-size: .60em;
+  font-style: italic;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+}
+
+#content {
+  padding: 25px;
+}
+
+#wrapper {
+  margin: 0px auto 0px auto;
+  width: 70%;
+  min-width: 700px;
+  background-color: #dce9f7;
+  box-shadow: 5px rgba(130, 130, 130, 0);
+}
+
+#copyrightTopLine {
+  padding-top: 10px;
+}
+
+/*
+  IMG floating classes
+*/
+
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
