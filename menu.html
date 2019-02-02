@@ -1,44 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>The Fresh Cafe - Menu</title>
-
-    <style>
-      
-      .navItdems {
-        padding-right: 10px;
-        padding-left: 10px;
-      }
-
-      .copyright, .mailto {
-        font-style: italic;
-      }
-
-    </style>
-
+    <title>HTML Exercise 2 - Location</title>
+    <!-- link to your external css file here -->
+    <link rel="stylesheet" href="assignment.css">
   </head>
   <body>
+    <div id="wrapper" class="box-shadow">
+      <h1>The Fresh Cafe</h1> 
+      <nav>
+        <!-- Place your navigation links here. Don't forget to style them using css -->
+        <!-- Navigation Menu -->
+        <div class="navItems">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="location.html">Location</a>
+        </div>
+      </nav>
+      <div id="content">
 
-    <!-- Content for the menu page menu page should include a heading size 2 that reads "Our Menu" followed by a HTML definition list with at least 5 menu items. -->
-
-    <div class="container">
-      <h1>The Fresh Cafe</h1>
-
-      <!-- Navigation Menu -->
-      <a href="index.html"><p class="navItems">Home</p></a>
-      <a href="menu.html"><p class="navItems">Menu</p></a>
-      <a href="location.html"><p class="navItems">Location</p></a>
-
-      <hr>
-
-      <h2>Our Menu</h2>
+          <h2>Our Menu</h2>
       
       <dl>
         <dt>Caesar Salad</dt>
@@ -54,20 +35,25 @@
         Appleton, CA<br>
         1-888-555-5555<br>
       </p>
+    
+          <br/>
 
-      <br>
+      </div> <!-- content -->
+        <footer>
+          <p class="copyright" id="copyrightTopLine">
+            Copyright &#169; 2019 The Fresh Cafe<br/>
+            <a rel="noopener" class="mailto" href="mailto:yourfirstname@yourlastname.com">Yael@Brown.com</a>
+          </p>
+        </footer>
 
-      <p class="copyright">Copyright &copy; 2019 The Fresh Cafe</p>
-      <a href="mailto:yael@brown.com"><p class="mailto">yael@brown.com</p></a>
+      <!-- Validation -->
+      <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fnova.umuc.edu%2F~ct385a25%2Fexercise2%2Fmenu.html">
+        Validate HTML</a>
 
-      <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fnova.umuc.edu%2F~ct385a25%2Fmenu.html"><p>HTML Validator Results</p></a>
+        <br/>
 
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fnova.umuc.edu%2F~ct385a25%2Fexercise2%2Fmenu.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        Validate CSS</a>
+    </div> <!-- wrapper -->
   </body>
 </html>
